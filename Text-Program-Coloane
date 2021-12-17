@@ -1,0 +1,40 @@
+# pentru a pune date dintrun fisier text in coloane
+# import pandas as pd
+#
+# health_data = pd.read_csv("date.csv", header=0, sep=",")
+#
+# print(health_data)
+
+# pentru a sterge toate datele specifice
+# import pandas as pd
+#
+# health_data = pd.read_csv("date.csv", header=0, sep=",")
+#
+# health_data.dropna(axis=0, inplace=True)
+#
+# print(health_data)
+
+# pentru a arata informatia despre o coloana anumita
+# import pandas as pd
+#
+# health_data = pd.read_csv("date.csv", header=0, sep=",")
+#
+# health_data.dropna(axis=0, inplace=True)
+#
+# print(health_data)
+#
+# print(health_data.info())
+
+# pentru a le face in date de tip float, int sau alt tip
+# import pandas as pd
+#
+# health_data = pd.read_csv("date.csv", header=0, sep=",")
+#
+# health_data.dropna(axis=0, inplace=True)
+#
+# print(health_data)
+#
+# health_data["Avarage_Pulse"] = health_data['Avarage_Pulse'].astype(float)
+# health_data["Max_Pulse"] = health_data['Max_Pulse'].astype(float)
+# print(health_data.info())
+
